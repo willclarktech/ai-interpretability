@@ -2608,8 +2608,8 @@ files = [
 
 [package.dependencies]
 numpy = [
-    {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
     {version = ">=1.23.2", markers = "python_version == \"3.11\""},
+    {version = ">=1.26.0", markers = "python_version >= \"3.12\""},
 ]
 python-dateutil = ">=2.8.2"
 pytz = ">=2020.1"
@@ -3087,8 +3087,8 @@ files = [
 astroid = ">=3.1.0,<=3.2.0-dev0"
 colorama = {version = ">=0.4.5", markers = "sys_platform == \"win32\""}
 dill = [
-    {version = ">=0.3.7", markers = "python_version >= \"3.12\""},
     {version = ">=0.3.6", markers = "python_version >= \"3.11\" and python_version < \"3.12\""},
+    {version = ">=0.3.7", markers = "python_version >= \"3.12\""},
 ]
 isort = ">=4.2.5,<5.13.0 || >5.13.0,<6"
 mccabe = ">=0.6,<0.8"
@@ -5060,4 +5060,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "fe2d2a80df962a4f1e38484caeef1cb107cbec89e312c6bfe568405063ca8576"
+content-hash = "7ea072400999134797409768a925a26552d04a9836f9b7c282e40aa4b78a8942"
